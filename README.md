@@ -12,33 +12,23 @@
 
 | Skill | 能做什么 | 状态 |
 |---|---|---|
-| [ah-douyin-clean-downloader](skills/ah-douyin-clean-downloader/) | 把抖音官方链接或分享口令发给 Codex，获取无抖音平台角标的播放源，保留原音视频，并在桌面按博主自动分类 | [v0.1.0](https://github.com/ahang008/ah-skills/releases/tag/ah-douyin-clean-downloader-v0.1.0) |
+| [ah-douyin-clean-downloader](https://github.com/ahang008/ah-douyin-clean-downloader) | 把抖音官方链接或分享口令发给 Codex，获取无抖音平台角标的播放源，保留原音视频，并在桌面按博主自动分类 | [v0.1.0](https://github.com/ahang008/ah-douyin-clean-downloader/releases/tag/v0.1.0) |
 
-后续新增 Skill 统一放在 `skills/` 目录，并使用 `ah-` 前缀。
+后续新增 Skill 统一使用 `ah-` 前缀，并建立独立 GitHub 仓库。这个仓库只负责品牌目录和索引，方便用户把某一个 Skill 的链接直接交给 Codex 安装。
 
 ## 安装单个 Skill
 
-```bash
-git clone https://github.com/ahang008/ah-skills.git
-mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
-cp -R ah-skills/skills/ah-douyin-clean-downloader "${CODEX_HOME:-$HOME/.codex}/skills/"
+```text
+安装这个 Skill：https://github.com/ahang008/ah-douyin-clean-downloader
 ```
 
-安装完成后，在 Codex 中直接发送抖音官方链接或完整分享口令即可。
+把上面这句话发给 Codex。安装完成后，新开一轮对话，再发送抖音官方链接或完整分享口令即可。
 
 具体环境要求、触发规则和使用边界见对应 Skill 的 README 和 SKILL.md。
 
-## 运行测试
-
-```bash
-./scripts/test-all.sh
-```
-
-当前版本会依次编译并测试仓库中的每个 Skill。
-
 ## 仓库约定
 
-- 每个 Skill 独立放在 `skills/<skill-name>/`。
+- 每个 Skill 使用独立 GitHub 仓库，本仓库只保存目录和品牌说明。
 - 名称统一使用 `ah-` 前缀。
 - 每个 Skill 必须包含 `SKILL.md`、README、测试、来源说明和许可证。
 - 不提交真实用户数据、视频、Cookie、Token、账号信息或私密链接。
@@ -46,7 +36,7 @@ cp -R ah-skills/skills/ah-douyin-clean-downloader "${CODEX_HOME:-$HOME/.codex}/s
 
 ## 许可
 
-当前仓库采用 [AH Source Available Non-Commercial License 1.0](LICENSE)。
+当前目录仓库采用 [AH Source Available Non-Commercial License 1.0](LICENSE)。每个 Skill 的具体许可同时以其独立仓库为准。
 
 允许个人学习、研究、修改和非商业使用。商业使用、付费产品、课程、客户交付、SaaS 或托管服务需要事先获得书面授权。
 

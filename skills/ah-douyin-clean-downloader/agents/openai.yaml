@@ -1,6 +1,0 @@
-interface:
-  display_name: "AH 抖音无水印下载"
-  short_description: "无水印下载抖音原视频，并在桌面按博主自动分类"
-  default_prompt: "Use $ah-douyin-clean-downloader to download this authorized Douyin video to my Desktop."
-policy:
-  allow_implicit_invocation: true
