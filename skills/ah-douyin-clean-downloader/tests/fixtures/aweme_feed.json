@@ -1,0 +1,43 @@
+{
+  "aweme_list": [
+    {
+      "aweme_id": "7123456789012345678",
+      "desc": "合成测试视频",
+      "author": {
+        "nickname": "测试作者"
+      },
+      "video": {
+        "play_addr_h264": {
+          "data_size": 4096,
+          "width": 1080,
+          "height": 1920,
+          "url_list": [
+            "https://cdn.example.test/video-h264.mp4"
+          ]
+        },
+        "play_addr": {
+          "data_size": 2048,
+          "url_list": [
+            "https://cdn.example.test/video-play.mp4"
+          ]
+        },
+        "download_addr": {
+          "url_list": [
+            "https://cdn.example.test/video-watermark.mp4?watermark=1"
+          ]
+        },
+        "bit_rate": [
+          {
+            "bit_rate": 1500000,
+            "play_addr": {
+              "url_key": "synthetic_h264_720p",
+              "url_list": [
+                "https://cdn.example.test/video-rate.mp4"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
