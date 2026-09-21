@@ -12,7 +12,7 @@
 
 | Skill | 能做什么 | 状态 |
 |---|---|---|
-| [ah-douyin-clean-downloader](skills/ah-douyin-clean-downloader/) | 把抖音官方链接或分享口令发给 Codex，获取无抖音平台角标的播放源，保留原音视频，并在桌面按博主自动分类 | 可用 |
+| [ah-douyin-clean-downloader](skills/ah-douyin-clean-downloader/) | 把抖音官方链接或分享口令发给 Codex，获取无抖音平台角标的播放源，保留原音视频，并在桌面按博主自动分类 | [v0.1.0](https://github.com/ahang008/ah-skills/releases/tag/ah-douyin-clean-downloader-v0.1.0) |
 
 后续新增 Skill 统一放在 `skills/` 目录，并使用 `ah-` 前缀。
 
@@ -62,4 +62,3 @@ cp -R ah-skills/skills/ah-douyin-clean-downloader "${CODEX_HOME:-$HOME/.codex}/s
 ## 参与贡献
 
 问题反馈和改进建议请提交 GitHub Issue。提交代码前请阅读 [CONTRIBUTING.md](CONTRIBUTING.md)。
-
