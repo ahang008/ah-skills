@@ -1,0 +1,28 @@
+name: 功能建议
+description: 提议一个新的 Skill 或工作流改进
+title: "[Feature] "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: workflow
+    attributes:
+      label: 真实工作流
+      description: 这个功能发生在哪个具体场景，当前需要手动完成哪些步骤
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: 期望产物
+      description: Skill 最终应该输出什么可以验收的结果
+    validations:
+      required: true
+  - type: textarea
+    id: boundary
+    attributes:
+      label: 使用边界
+      description: 哪些行为不应该由这个 Skill 执行
+    validations:
+      required: true
+
