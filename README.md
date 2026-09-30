@@ -53,3 +53,9 @@
 ## 参与贡献
 
 问题反馈和改进建议请提交 GitHub Issue。提交代码前请阅读 [CONTRIBUTING.md](CONTRIBUTING.md)。
+
+## 联系阿杭
+
+如果想交流 Skill 使用、工作流或合作，可以扫描下方二维码添加微信。添加时请备注「GitHub」和来意。公开的问题或改进建议仍可直接提交 Issue。
+
+<img src="assets/ahang-wechat-qr.jpg" alt="阿杭的微信二维码" width="300">
