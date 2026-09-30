@@ -35,6 +35,12 @@
 - 不提交真实用户数据、视频、Cookie、Token、账号信息或私密链接。
 - 未经验证的功能不写进 README。
 
+## 联系阿杭
+
+如果想交流 Skill 使用、工作流或合作，可以扫描下方二维码添加微信。添加时请备注「GitHub」和来意。公开的问题或改进建议仍可直接提交 Issue。
+
+<img src="assets/ahang-wechat-qr.jpg" alt="阿杭的微信二维码" width="300">
+
 ## 许可
 
 当前目录仓库采用 [AH Source Available Non-Commercial License 1.0](LICENSE)。每个 Skill 的具体许可同时以其独立仓库为准。
@@ -53,9 +59,3 @@
 ## 参与贡献
 
 问题反馈和改进建议请提交 GitHub Issue。提交代码前请阅读 [CONTRIBUTING.md](CONTRIBUTING.md)。
-
-## 联系阿杭
-
-如果想交流 Skill 使用、工作流或合作，可以扫描下方二维码添加微信。添加时请备注「GitHub」和来意。公开的问题或改进建议仍可直接提交 Issue。
-
-<img src="assets/ahang-wechat-qr.jpg" alt="阿杭的微信二维码" width="300">
