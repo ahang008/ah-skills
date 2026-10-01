@@ -12,6 +12,7 @@
 
 | Skill | 能做什么 | 状态 |
 |---|---|---|
+| [ah-think](https://github.com/ahang008/ah-think) | 澄清目标与取舍，检查现实条件和反馈，帮助思考并保留自主决定；当前为试用 MVP | [v0.1.2 试用](https://github.com/ahang008/ah-think/releases/tag/v0.1.2) |
 | [ah-douyin-clean-downloader](https://github.com/ahang008/ah-douyin-clean-downloader) | 把抖音官方链接或分享口令发给 Codex，获取无抖音平台角标的播放源，保留原音视频，并在桌面按博主自动分类 | [v0.1.0](https://github.com/ahang008/ah-douyin-clean-downloader/releases/tag/v0.1.0) |
 | [ah-longform-clip-matrix](https://github.com/ahang008/ah-longform-clip-matrix) | 围绕不同观众问题跨位置重组长口播，生成切片候选、来源时间映射与明确的内容验收状态；[查看架构图](https://github.com/ahang008/ah-longform-clip-matrix/blob/main/assets/长内容切片矩阵Skill架构.png)和[可编辑源文件](https://github.com/ahang008/ah-longform-clip-matrix/blob/main/docs/长内容切片矩阵Skill架构.excalidraw) | 已发布 |
 
