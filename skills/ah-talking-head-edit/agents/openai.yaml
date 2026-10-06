@@ -1,0 +1,4 @@
+interface:
+  display_name: "阿杭独立口播剪辑"
+  short_description: "依据语义审剪本地口播并交付独立工程视频字幕和校验报告试用版"
+  default_prompt: "使用 $ah-talking-head-edit 按已审核源区间和带时间戳字幕独立剪辑授权口播素材，输出可编辑工程、视频、字幕和校验报告。"
