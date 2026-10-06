@@ -1,0 +1,4 @@
+interface:
+  display_name: "Gemini 口播稿润色桥"
+  short_description: "使用 Gemini 润色口播稿，保留上下文、事实与阿杭自己的表达"
+  default_prompt: "使用 $ah-gemini-script-polisher，把当前上下文中的口播稿交给 Gemini 3.8 Flash 润色并核对成稿。"

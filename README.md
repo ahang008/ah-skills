@@ -35,11 +35,12 @@
 | [ah-longform-clip-matrix](https://github.com/ahang008/ah-longform-clip-matrix) | 围绕不同观众问题跨位置重组长口播，生成切片候选、来源时间映射与明确的内容验收状态；[查看架构图](https://github.com/ahang008/ah-longform-clip-matrix/blob/main/assets/长内容切片矩阵Skill架构.png)和[可编辑源文件](https://github.com/ahang008/ah-longform-clip-matrix/blob/main/docs/长内容切片矩阵Skill架构.excalidraw) | 已发布 |
 | [ah-ai-blogger-video](skills/ah-ai-blogger-video) | AI博主系列入口：选择字幕、倍速与归档参数，调用另行安装的剪辑引擎和封面 Skill | 系列入口；外部依赖另装 |
 | [ah-weightloss-video](skills/ah-weightloss-video) | 减肥系列入口：沿用本系列已确认的制作参数，调用另行安装的剪辑引擎与封面流程 | 系列入口；外部依赖另装 |
+| [ah-gemini-script-polisher](skills/ah-gemini-script-polisher) | 把 Codex 已确认的上下文交给 Gemini 润色中文口播，核对完整正文与事实；Flash 写作、Pro 讨论桥的架构 | 首版试用；官网桥接 |
 
 
 
 
-后续新增工具 Skill 统一使用 `ah-` 前缀，并建立独立 GitHub 仓库。本仓库负责品牌目录和索引，同时收录阿杭独立编写的两个系列入口；它们只编排外部 Skill，不包含第三方剪辑引擎。来源、发布范围和依赖许可见 [来源说明](PROVENANCE.md)与[第三方说明](THIRD_PARTY_NOTICES.md)。
+后续新增工具 Skill 统一使用 `ah-` 前缀，并建立独立 GitHub 仓库。本仓库负责品牌目录和索引，同时收录阿杭独立编写的两个系列入口，以及本次明确发布在此仓库的 Gemini 写作桥试用包；系列入口只编排外部 Skill，不包含第三方剪辑引擎。来源、发布范围和依赖许可见 [来源说明](PROVENANCE.md)与[第三方说明](THIRD_PARTY_NOTICES.md)。
 
 
 
@@ -71,6 +72,6 @@
 
 
 
-- 工具 Skill 使用独立 GitHub 仓库；`skills/` 仅保存上述两个系列入口的公开版本。本机已安装的系列 Skill 保持原有路径，公开入口不自动覆盖本机版本。
+- 工具 Skill 默认使用独立 GitHub 仓库；`skills/` 保存上述系列入口和 Gemini 写作桥的公开试用包。本机已安装的 Skill 保持原有路径，公开版本不自动覆盖本机版本。
 
 合作推广：受众是跨境出海、独立开发者、AI视频爱好者。产品推广、模型测评。相关产品如需推广，可以和我联系。微信 Zephyr136。邮箱 a1165094791@gmail.com。X：https://x.com/Astronaut_1216

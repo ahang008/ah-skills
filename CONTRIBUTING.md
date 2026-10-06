@@ -16,7 +16,7 @@
 
 1. 一个 Pull Request 只解决一个明确问题。
 2. 修改行为时同步更新测试和文档。
-3. 新增工具 Skill 时创建独立的 `ah-<name>` GitHub 仓库，再把链接加入本仓库 README。现有 `skills/ah-ai-blogger-video` 和 `skills/ah-weightloss-video` 是只编排外部 Skill 的系列入口，作为明确例外留在本仓库。
+3. 新增工具 Skill 时创建独立的 `ah-<name>` GitHub 仓库，再把链接加入本仓库 README。现有 `skills/ah-ai-blogger-video` 和 `skills/ah-weightloss-video` 是只编排外部 Skill 的系列入口，作为明确例外留在本仓库。本次按阿杭明确要求发布于本仓库的 `skills/ah-gemini-script-polisher` 也是例外，包含完整写作桥、说明和测试。
 4. 新工具 Skill 仓库必须包含 `SKILL.md`、README、LICENSE、PROVENANCE、SECURITY 和测试。本仓库的两个系列入口各自包含 `SKILL.md` 与 README，共用根目录的许可、来源和安全说明。
 5. 不得提交真实视频、用户数据、Cookie、Token、账号、私密链接或访问控制绕过代码。
 6. 运行对应 Skill 的全部测试后再提交。系列入口没有执行脚本；验证完整 `SKILL.md`、安装后的外部依赖定位、许可及发布边界，不将元数据校验称为实际剪辑验收。
